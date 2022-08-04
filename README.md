@@ -1,6 +1,6 @@
 # code-challenges
 
-[![code-challenges](https://github.com/mravinale/code-challenges/actions/workflows/node-boilerplate.yml/badge.svg)](https://github.com/mravinale/node-boilerplate/actions/workflows/node-boilerplate.yml)
+[![code-challenges](https://github.com/mravinale/code-challenges/actions/workflows/code-challenges.yml/badge.svg)](https://github.com/mravinale/code-challenges/actions/workflows/code-challenges.yml)
 
 ### Simple typescript node with unit testing template for getting started.
 
