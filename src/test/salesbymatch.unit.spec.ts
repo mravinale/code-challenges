@@ -1,12 +1,11 @@
 import SinonChai from 'sinon-chai';
 import { SalesByMatch } from "../app/SalesByMatch";
-import { spy } from "sinon"
 import chai, { expect } from "chai";
 
 // enhance chai with sinon capabilities
 chai.use(SinonChai);
 
-describe("SalesByMatch Tests", () => {
+describe("Sales By Match Tests", () => {
 
     it("Test case0", async () => {
         // Act
