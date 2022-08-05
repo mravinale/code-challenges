@@ -1,5 +1,5 @@
-import { User } from "./app/user";
+import { SalesByMatch } from "./app/SalesByMatch";
 
-const user = new User("John");
+const user = new SalesByMatch();
 
-user.displayName();
+console.log(user.countPairs( 7, [1, 2, 1, 2, 1, 3, 2]));
