@@ -1,5 +1,5 @@
 
-// https://docs.google.com/document/d/1QD5fSm-PQN77lxcX3dj3SpmKeJ7ceruKKvDtYwsd9dU/edit?usp=sharing
+// https://www.hackerrank.com/challenges/sock-merchant
 export class SalesByMatch {
 
     public countPairs(socksPile, totalSocks): number {

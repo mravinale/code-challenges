@@ -7,7 +7,7 @@ chai.use(SinonChai);
 
 describe("Stair Case Tests", () => {
 
-    it("Test case0", async () => {
+    it("Test case 0", async () => {
         // Arrange
         const stairCase = new StairCase();
 
@@ -18,7 +18,7 @@ describe("Stair Case Tests", () => {
         expect(result).equals("   #\n  ##\n ###\n####\n");
     });
 
-    it("Test case2", async () => {
+    it("Test case 1", async () => {
         // Arrange
         const stairCase = new StairCase();
 
@@ -29,7 +29,7 @@ describe("Stair Case Tests", () => {
         expect(result).equals("    #\n   ##\n  ###\n ####\n#####\n");
     });
 
-    it("Test case3", async () => {
+    it("Test case 2", async () => {
         // Arrange
         const stairCase = new StairCase();
 
