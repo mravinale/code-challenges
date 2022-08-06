@@ -1,8 +1,8 @@
-import { SalesByMatch } from "./app/SalesByMatch";
-import { CompareTheTriplets } from "./app/CompareTheTriplets";
-import { AVeryBigSum } from "./app/AVeryBigSum";
-import { DiagonalDifference } from "./app/DiagonalDifference";
-import { PlusMinus } from "./app/PlusMinus";
+import { SalesByMatch } from "./HackerRank/ProblemSolving(Basic)/SalesByMatch/SalesByMatch";
+import { CompareTheTriplets } from "./HackerRank/ProblemSolving(Basic)/CompareTheTriplets/CompareTheTriplets";
+import { AVeryBigSum } from "./HackerRank/ProblemSolving(Basic)/AVeryBigSum/AVeryBigSum";
+import { DiagonalDifference } from "./HackerRank/ProblemSolving(Basic)/DiagonalDifference/DiagonalDifference";
+import { PlusMinus } from "./HackerRank/ProblemSolving(Basic)/PlusMinus/PlusMinus";
 
 const user = new SalesByMatch();
 const result = user.countPairs( 9, [3, 20, 3, 10, 3, 30, 50, 10, 20]);

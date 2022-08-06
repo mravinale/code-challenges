@@ -1,5 +1,5 @@
 import SinonChai from 'sinon-chai';
-import { SalesByMatch } from "../app/SalesByMatch";
+import { SalesByMatch } from "./SalesByMatch";
 import chai, { expect } from "chai";
 
 // enhance chai with sinon capabilities

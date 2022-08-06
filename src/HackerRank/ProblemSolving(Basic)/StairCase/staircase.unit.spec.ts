@@ -1,6 +1,6 @@
 import SinonChai from 'sinon-chai';
 import chai, { expect } from "chai";
-import { StairCase } from "../app/StairCase";
+import { StairCase } from "./StairCase";
 
 // enhance chai with sinon capabilities
 chai.use(SinonChai);

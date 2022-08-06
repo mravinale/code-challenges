@@ -1,6 +1,6 @@
 import SinonChai from 'sinon-chai';
 import chai, { expect } from "chai";
-import { PlusMinus } from "../app/PlusMinus";
+import { PlusMinus } from "./PlusMinus";
 
 // enhance chai with sinon capabilities
 chai.use(SinonChai);

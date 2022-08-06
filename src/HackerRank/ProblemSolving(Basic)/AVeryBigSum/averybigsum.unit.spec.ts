@@ -1,6 +1,6 @@
 import SinonChai from 'sinon-chai';
 import chai, { expect } from "chai";
-import { AVeryBigSum } from "../app/AVeryBigSum";
+import { AVeryBigSum } from "./AVeryBigSum";
 
 // enhance chai with sinon capabilities
 chai.use(SinonChai);

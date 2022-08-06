@@ -4,7 +4,7 @@
   "scripts": {
     "start": "yarn nodemon",
     "build": "yarn tsc",
-    "test": "yarn build && yarn nyc mocha --timeout 35000 ./dist/test/*.spec.js --exit"
+    "test": "yarn build && yarn nyc mocha --timeout 35000 ./dist/**/**/*.spec.js --exit"
   },
   "main": "src/index.ts",
   "repository": "https://github.com/mravinale/code-challenges.git",

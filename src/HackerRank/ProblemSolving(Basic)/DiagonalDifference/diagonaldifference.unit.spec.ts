@@ -1,6 +1,6 @@
 import SinonChai from 'sinon-chai';
 import chai, { expect } from "chai";
-import { DiagonalDifference } from "../app/DiagonalDifference";
+import { DiagonalDifference } from "./DiagonalDifference";
 
 // enhance chai with sinon capabilities
 chai.use(SinonChai);
