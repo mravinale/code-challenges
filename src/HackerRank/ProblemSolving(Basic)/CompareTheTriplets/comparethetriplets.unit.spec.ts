@@ -7,7 +7,7 @@ chai.use(SinonChai);
 
 describe("Compare The Triplets Tests", () => {
 
-    it("Test case0", async () => {
+    it("Test case 0", async () => {
         // Act
         const compareTheTriplets = new CompareTheTriplets();
         const results =  compareTheTriplets.execute( [5, 6, 7], [3, 6, 10])
@@ -17,7 +17,7 @@ describe("Compare The Triplets Tests", () => {
         expect(results[1]).equals(1);
     });
 
-    it("Test case2", async () => {
+    it("Test case 1", async () => {
         // Act
         const compareTheTriplets = new CompareTheTriplets();
         const results =  compareTheTriplets.execute( [17, 28, 30], [99, 16, 8])
@@ -27,7 +27,7 @@ describe("Compare The Triplets Tests", () => {
         expect(results[1]).equals(1);
     });
 
-    it("Test case3", async () => {
+    it("Test case 2", async () => {
         // Act
         const compareTheTriplets = new CompareTheTriplets();
         const results =  compareTheTriplets.execute( [1, 2, 3], [9, 1, 8])

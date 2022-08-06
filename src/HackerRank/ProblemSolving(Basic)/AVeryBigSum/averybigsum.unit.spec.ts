@@ -7,7 +7,7 @@ chai.use(SinonChai);
 
 describe("A Very Big Sum Tests", () => {
 
-    it("Test case0", async () => {
+    it("Test case 0", async () => {
         // Arrange
         const aVeryBigSum = new AVeryBigSum();
 
@@ -18,7 +18,7 @@ describe("A Very Big Sum Tests", () => {
         expect(result).equals(5000000015);
     });
 
-    it("Test case2", async () => {
+    it("Test case 1", async () => {
         // Arrange
         const aVeryBigSum = new AVeryBigSum();
 
@@ -29,7 +29,7 @@ describe("A Very Big Sum Tests", () => {
         expect(result).equals(25000000015);
     });
 
-    it("Test case3", async () => {
+    it("Test case 2", async () => {
         // Arrange
         const aVeryBigSum = new AVeryBigSum();
 

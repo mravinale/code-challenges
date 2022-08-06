@@ -7,7 +7,7 @@ chai.use(SinonChai);
 
 describe("Diagonal difference Tests", () => {
 
-    it("Test case0", async () => {
+    it("Test case 0", async () => {
         // Arrange
         const diagonalDifference = new DiagonalDifference();
 
@@ -18,7 +18,7 @@ describe("Diagonal difference Tests", () => {
         expect(result).equals(15);
     });
 
-    it("Test case2", async () => {
+    it("Test case 1", async () => {
         // Arrange
         const diagonalDifference = new DiagonalDifference();
 
@@ -29,7 +29,7 @@ describe("Diagonal difference Tests", () => {
         expect(result).equals(5);
     });
 
-    it("Test case3", async () => {
+    it("Test case 2", async () => {
         // Arrange
         const diagonalDifference = new DiagonalDifference();
 

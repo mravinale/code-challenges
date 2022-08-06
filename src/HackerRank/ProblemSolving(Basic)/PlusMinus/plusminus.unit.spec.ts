@@ -7,7 +7,7 @@ chai.use(SinonChai);
 
 describe("Plus Minus Tests", () => {
 
-    it("Test case0", async () => {
+    it("Test case 0", async () => {
         // Arrange
         const plusMinus = new PlusMinus();
 
@@ -20,7 +20,7 @@ describe("Plus Minus Tests", () => {
         expect(result[2]).equals(0.16666666666666666);
     });
 
-    it("Test case2", async () => {
+    it("Test case 1", async () => {
         // Arrange
         const plusMinus = new PlusMinus();
 
@@ -33,7 +33,7 @@ describe("Plus Minus Tests", () => {
         expect(result[2]).equals(0);
     });
 
-    it("Test case3", async () => {
+    it("Test case 2", async () => {
         // Arrange
         const plusMinus = new PlusMinus();
 
