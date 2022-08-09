@@ -7,12 +7,13 @@
 
 ## Start application
 
-* Install dependencies `yarn install`
-* Start with local project `yarn start`
+* Install dependencies `yarn install` 
+* Run the tests for the challenges `yarn test`
 
 
 ## Commands
 * **Installation:** `yarn install` *download dependencies*
+* **Test:** `yarn start` *execute and run the challenges*
 * **Test:** `yarn test` *unit and integration tests*
 * **Build:** `yarn build` *production build -> dist folder*
 
