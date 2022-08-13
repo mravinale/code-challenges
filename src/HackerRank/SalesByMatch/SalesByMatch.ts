@@ -3,7 +3,7 @@
 export class SalesByMatch {
 
     public countPairs(socksPile, totalSocks): number {
-        let socksTypes = this.getSockTypes(totalSocks);
+        let socksTypes = SalesByMatch.getSockTypes(totalSocks);
         const sockCounter = new Map(); // creates a hashtable for storing pairs count
 
         socksTypes.forEach( (sockType) => {
@@ -12,13 +12,11 @@ export class SalesByMatch {
         });
 
         let sockPairsList = Array.from(sockCounter.values()); // transform pairs hashtable to array
-        let pairsCount = sockPairsList.reduce((x, y) => x + y); // count total pairs
-
-        return pairsCount
+        return sockPairsList.reduce((x, y) => x + y); // count total pairs
     }
 
     // Creates a new array with socks types (removing repeated)
-    private getSockTypes(socks) {
+    private static getSockTypes(socks) {
         return [...new Set(socks)];
     }
 

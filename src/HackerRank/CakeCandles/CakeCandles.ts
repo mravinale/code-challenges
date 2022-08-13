@@ -7,8 +7,6 @@ export class CakeCandles {
         let max = Math.max(...candles);
 
         // count the number of times the max number appears in the array
-        let count = candles.filter(x => x === max).length;
-
-        return count;
+        return candles.filter(x => x === max).length;
     }
 }

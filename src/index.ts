@@ -1,12 +1,12 @@
-import { AVeryBigSum } from "./HackerRank/ProblemSolving(Basic)/AVeryBigSum/AVeryBigSum";
-import { CakeCandles } from "./HackerRank/ProblemSolving(Basic)/CakeCandles/CakeCandles";
-import { CompareTheTriplets } from "./HackerRank/ProblemSolving(Basic)/CompareTheTriplets/CompareTheTriplets";
-import { DiagonalDifference } from "./HackerRank/ProblemSolving(Basic)/DiagonalDifference/DiagonalDifference";
-import { MiniMaxSum } from "./HackerRank/ProblemSolving(Basic)/MiniMaxSum/MiniMaxSum";
-import { PlusMinus } from "./HackerRank/ProblemSolving(Basic)/PlusMinus/PlusMinus";
-import { SalesByMatch } from "./HackerRank/ProblemSolving(Basic)/SalesByMatch/SalesByMatch";
-import { StairCase } from "./HackerRank/ProblemSolving(Basic)/StairCase/StairCase";
-import { TimeConversion } from "./HackerRank/ProblemSolving(Basic)/TimeConversion/TimeConversion";
+import { AVeryBigSum } from "./HackerRank/AVeryBigSum/AVeryBigSum";
+import { CakeCandles } from "./HackerRank/CakeCandles/CakeCandles";
+import { CompareTheTriplets } from "./HackerRank/CompareTheTriplets/CompareTheTriplets";
+import { DiagonalDifference } from "./HackerRank/DiagonalDifference/DiagonalDifference";
+import { MiniMaxSum } from "./HackerRank/MiniMaxSum/MiniMaxSum";
+import { PlusMinus } from "./HackerRank/PlusMinus/PlusMinus";
+import { SalesByMatch } from "./HackerRank/SalesByMatch/SalesByMatch";
+import { StairCase } from "./HackerRank/StairCase/StairCase";
+import { TimeConversion } from "./HackerRank/TimeConversion/TimeConversion";
 
 const user = new SalesByMatch();
 const result = user.countPairs( 9, [3, 20, 3, 10, 3, 30, 50, 10, 20]);

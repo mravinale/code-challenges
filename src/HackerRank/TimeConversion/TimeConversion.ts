@@ -19,8 +19,6 @@ export class TimeConversion {
         if (!isPM && hour === 12) time[0] = "00";
 
         // convert the time to string
-        let militaryTime = `${time[0]}:${time[1]}:${time[2]}`;
-
-        return militaryTime;
+        return `${time[0]}:${time[1]}:${time[2]}`;
     }
 }
